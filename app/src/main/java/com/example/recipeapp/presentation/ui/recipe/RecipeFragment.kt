@@ -26,7 +26,7 @@ class RecipeFragment : Fragment() {
     ): View {
         return ComposeView(requireContext()).apply {
             setContent {
-                Column(modifier = Modifier.padding(16.dp)) {
+                Column(modifier = Modifier.padding(8.dp)) {
                     Text(
                         text = "Recipe fragment",
                         style = TextStyle(
